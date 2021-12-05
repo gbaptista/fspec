@@ -1,5 +1,3 @@
-(local helper/list (require :fspec.helpers.list))
-
 (local helper {})
 
 (fn helper.split [delimiter content]

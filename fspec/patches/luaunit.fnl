@@ -1,6 +1,6 @@
-(local logic/presenter (require :fspec.logic.presenter))
-
 (local fennel (require :fennel))
+
+(local logic/presenter (require :fspec.logic.presenter))
 
 (local patch {})
 

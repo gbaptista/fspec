@@ -1,10 +1,10 @@
-(local sn (require :supernova))
-
-(local logic/presenter (require :fspec.logic.presenter))
+(local fennel (require :fennel))
 
 (local lfs (require :lfs))
 
-(local fennel (require :fennel))
+(local sn (require :supernova))
+
+(local logic/presenter (require :fspec.logic.presenter))
 
 (local controller {:__queue {:successes [] :failures [] :files 0 :last nil}})
 
