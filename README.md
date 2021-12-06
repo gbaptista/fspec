@@ -2,7 +2,7 @@
 
 A wrapper that tweaks [LuaUnit](https://luaunit.readthedocs.io) for a more pleasant test writing experience with [Fennel](https://fennel-lang.org/).
 
-![fspec results example](https://raw.githubusercontent.com/gbaptista/assets/main/fspec/fspec.png)
+![fspec results example](https://raw.githubusercontent.com/gbaptista/assets/main/fspec/readme.png)
 
 - [Installing](#installing)
 - [Usage](#usage)
@@ -95,7 +95,7 @@ With **LuaUnit** you would write a test in Fennel like this:
 (os.exit (luaunit.LuaUnit.run))
 ```
 Which would result in:
-![LuaUnit results example](https://raw.githubusercontent.com/gbaptista/assets/main/fspec/luaunit.png)
+![LuaUnit results example](https://raw.githubusercontent.com/gbaptista/assets/main/fspec/readme-luaunit.png)
 
 
 With **fspec** you would write the same test as:
@@ -116,4 +116,4 @@ With **fspec** you would write the same test as:
 
 Which would result in:
 
-![fspec results example](https://raw.githubusercontent.com/gbaptista/assets/main/fspec/fspec.png)
+![fspec results example](https://raw.githubusercontent.com/gbaptista/assets/main/fspec/readme.png)
