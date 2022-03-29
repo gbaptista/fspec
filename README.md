@@ -15,9 +15,15 @@ A wrapper that tweaks [LuaUnit](https://luaunit.readthedocs.io) for a more pleas
 
 To install through [fnx](https://github.com/gbaptista/fnx), add to your `.fnx.fnl`:
 
-```fennel
-{:dependencies {
-   :fspec {:fennel/fnx {:git/github "gbaptista/fspec"}} }}
+```fnl
+:fspec {:fennel/fnx {:git/github "gbaptista/fspec"}}
+
+; Example:
+
+{:name :my-project
+ :version :0.0.1
+ :dependencies
+   :fspec {:fennel/fnx {:git/github "gbaptista/fspec"}}}
 ```
 
 And install:
