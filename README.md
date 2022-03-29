@@ -20,8 +20,9 @@ To install through [fnx](https://github.com/gbaptista/fnx), add to your `.fnx.fn
 
 ; Example:
 
-{:name :my-project
- :version :0.0.1
+{:name    "my-project"
+ :version "0.0.1"
+
  :dependencies
    :fspec {:fennel/fnx {:git/github "gbaptista/fspec"}}}
 ```
